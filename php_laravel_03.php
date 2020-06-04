@@ -3,7 +3,7 @@
 //課題1
 $name = 'hiroto_nishidate';
 if($name == 'hiroto_nishidate'){
-    echo '私はあなたの名前です';
+    echo 'hiroto_nishidate';
     echo "\n";
 }else{
     echo '私はあなたの名前ではありません';
@@ -22,8 +22,8 @@ echo "\n";
 
 //課題3
 $fruits = array("Orange","Apple","Strawberry","Grape","Banana");
-foreach($fruits as $Fruits){
-    echo $Fruits;
+foreach($fruits as $arrFruits){
+    echo $arrFruits;
     echo "\n";
 }
 
